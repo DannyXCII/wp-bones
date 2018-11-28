@@ -1,0 +1,80 @@
+/* bones global widget */
+.bones-widget {
+  margin: .75rem;
+}
+
+/* ABOUT WIDGET */
+.bones-about-widget {
+  background-color: rgba(119, 140, 163, 0.75);
+  padding: .75rem;
+}
+
+.bones-about-widget h3,
+.bones-about-widget p {
+  color: #fff;
+}
+
+.bones-about-widget h3 {
+  margin-top: 1rem;
+  text-align: center;
+  letter-spacing: .2rem;
+}
+
+.bones-about-widget p {
+  width: 95%;
+  margin: 1.5rem auto;
+  font-weight: 200;
+}
+
+/* ARCHIVE WIDGET */
+.bones-archive-widget {
+  margin-top: 2rem;
+}
+
+.bones-archive-widget h3 {
+
+}
+
+.bones-archive-widget ul li {
+  margin: .5rem 0;
+}
+
+.bones-archive-widget ul li a {
+  font-size: 1.2rem;
+}
+
+/* Footer Widgets */
+.bones-footer-widget {
+  width: 33%;
+  margin-top: 1rem;
+}
+
+.bones-footer-widget h3 {
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 1.5rem;
+}
+
+.bones-footer-widget p {
+  width: 80%;
+  margin: .5rem auto;
+}
+
+ul#menu-footer.menu {
+  text-align: center;
+}
+
+ul#menu-footer.menu li {
+  background-color: #0fb9b1;
+  margin: .5rem 0;
+}
+
+ul#menu-footer.menu li:hover {
+  background-color: rgba(119, 140, 163, 0.5);
+}
+
+ul#menu-footer.menu li a {
+  padding: .5rem 0;
+  display: block;
+  color: #fff;
+}

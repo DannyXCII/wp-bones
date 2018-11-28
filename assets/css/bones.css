@@ -1,0 +1,337 @@
+/* Global styles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding-bottom: 12rem;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+header nav,
+footer,
+.bones-container {
+  display: flex;
+}
+
+/* Theme header */
+header,
+header nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+header,
+section#bones-headline,
+footer {
+  width: 100%;
+}
+
+header {
+  margin-top: 3rem;
+  background-color: #0fb9b1;
+}
+
+header div#bones-logo {
+  padding-left: 1rem;
+}
+
+header div#bones-logo a img {
+  max-height: 90px !important;
+  width: auto;
+}
+
+header div#bones-logo h1,
+header nav ul li a {
+  color: #fff;
+}
+
+header nav {
+  margin-right: 2rem;
+  min-height: 100%;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul#bones-social-menu li a {
+  padding: .5rem;
+  margin: .5rem;
+  transition: .25s;
+}
+
+header nav ul#bones-social-menu li a:hover {
+  color: rgba(119, 140, 163, 0.75);
+}
+
+header nav div.menu-main-container ul,
+header nav div.menu-main-container ul li {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+header nav div.menu-main-container ul {
+  margin-right: 2rem;
+}
+
+header nav div.menu-main-container ul li {
+  cursor: pointer;
+  display: inline-block;
+}
+
+header nav div.menu-main-container ul li a,
+section#bones-headline p,
+.bones-container main div.bones-post-preview p.bones-post-information {
+  font-weight: 200;
+}
+
+header nav div.menu-main-container ul li a {
+  font-size: 1.25rem;
+  padding: 2.25rem;
+  display: block;
+}
+
+header nav div.menu-main-container ul li a,
+section#bones-headline p {
+  font-size: 1.25rem;
+}
+
+header nav div.menu-main-container ul li:hover,
+.bones-container main.bones-post ul.bones-pager li a:hover,
+#submit:hover {
+  background-color: rgba(119, 140, 163, 0.5);
+}
+
+/* headline */
+section#bones-headline {
+  padding: 1rem;
+}
+
+section#bones-headline h1 {
+  font-size: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+/* page content */
+.bones-container {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+/* post */
+.bones-container main.bones-post,
+.bones-container section#bones-sidebar {
+  padding: .5rem;
+}
+
+.bones-container main.bones-post {
+  width: 72%;
+}
+
+footer,
+.bones-container main.bones-post div.bones-post-preview {
+  padding: 1rem;
+}
+
+.bones-container main.bones-post div.bones-post-preview h2.bones-post-title {
+  font-size: 2rem;
+}
+
+.bones-container main.bones-post div.bones-post-preview h2.bones-post-title a {
+  color: rgba(15, 185, 177, 0.5);
+}
+
+.bones-container main.bones-post div.bones-post-preview p {
+  margin: .75rem 0;
+  font-size: 1.1rem;
+}
+
+.bones-container main.bones-post div.bones-post-preview p.bones-post-information {
+  font-size: 1rem;
+}
+
+.bones-container main.bones-post ul.bones-pager {
+  padding: 1rem;
+}
+
+.bones-container main.bones-post ul.bones-pager li a,
+#submit {
+  padding: .5rem .75rem;
+  background-color: #0fb9b1;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+}
+
+#submit {
+  cursor: pointer;
+}
+
+/* single post */
+.bones-container div.bones-single-post {
+
+}
+
+.bones-container div.bones-single-post h2.bones-post-title {
+  color: rgba(15, 185, 177, 0.5);
+  font-size: 2rem;
+}
+
+.bones-container div.bones-single-post p.bones-post-information {
+  font-weight: 200;
+}
+
+.bones-container div.bones-single-post div.bones-post-content {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+/* sidebar */
+.bones-container section#bones-sidebar {
+  width: 28%;
+}
+
+/* page */
+body > div.bones-container > main > div > h2 {
+  color: rgba(15, 185, 177, 1.0);
+  font-size: 2rem;
+}
+
+body > div.bones-container > main > div > div > p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+blockquote {
+  padding: .75rem;
+  font-weight: 200;
+  line-height: 1.35rem;
+  letter-spacing: .05rem;
+}
+
+.bones-container main.bones-page {
+  width: 100%;
+}
+
+.bones-container main.bones-page p {
+  margin: 1rem 0;
+}
+
+#bones-comments {
+  border-top: 2px solid rgba(15, 185, 177, 1.0);
+  padding-top: 1.5rem;
+}
+
+#bones-comments > h3.bones-comments-title {
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+}
+
+#bones-comments > ul li {
+  padding: .75rem;
+}
+
+#bones-comments > ul li.comment div.comment-body div.comment-author {
+  display: flex;
+  align-items: center;
+}
+
+#bones-comments > ul li.comment div.comment-body div.comment-author cite {
+  margin-right: .4rem;
+  color: #4d4d4d;
+  font-style: normal !important;
+}
+
+#bones-comments > ul li.comment div.comment-body div.comment-author cite a:hover {
+  color: rgba(15, 185, 177, 1.0);
+}
+
+#bones-comments > ul li.comment div.comment-body div.comment-meta {
+  font-weight: 200;
+  color: #4d4d4d;
+  padding: 1rem;
+  font-size: .9rem;
+}
+
+#bones-comments > ul li.comment div.comment-body p {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+#bones-comments div.comment-respond {
+  margin-top: 1.5rem;
+}
+
+#bones-comments div.comment-respond form.comment-form p.comment-form-comment {
+  display: flex;
+  flex-direction: column;
+}
+
+#bones-comments div.comment-respond form.comment-form p.comment-form-comment label {
+  margin-bottom: .25rem;
+  font-weight: 200;
+  letter-spacing: .15rem;
+  font-size: 1.05rem;
+}
+
+#bones-comments div.comment-respond form.comment-form p.comment-form-comment textarea {
+  resize: none;
+  width: 70%;
+  border: 1px solid #0fb9b1;
+  border-radius: 4px;
+}
+
+li.categories {
+  font-size: 1.2rem;
+  margin-bottom: .75rem;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li.categories ul li {
+  margin: .5rem 0;
+}
+
+li.categories ul li a {
+  font-weight: normal;
+}
+
+ul.post-categories {
+  display: inline-block;
+}
+
+#bones-bottom-bar {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(15, 185, 177, 0.25);
+}
+
+@media only screen and (max-width: 790px) {
+  #bones-comments div.comment-respond form.comment-form p.comment-form-comment textarea {
+    width: 100%;
+  }
+}
+
+/* site footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  background-color: rgba(15, 185, 177, 0.25);
+}
